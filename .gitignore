@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build files
+android/app/build/
+android/build/
+ios/Pods/
+ios/build/
+
+# Logs & Cache
+npm-debug.log*
+yarn-debug.log*
+metro-cache/
+
+# Firebase credentials
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Environment variables
+.env
+.env.local
+.env.*.local

@@ -1,0 +1,19 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./", // Set the base directory for your project
+    "paths": {
+      "@commonComponents/*" :["src/common/components/*"],
+      "@commonStyles/*" :["src/common/styles/*"],
+      "@components/*" :["src/components/*"],
+      "@utils/*" :["src/utils/*"],
+      "@assets/*" :["src/assets/*"],
+      "@src/*": ["src/*"],
+      "@auth/*": ["src/screens/auth/*"],
+      "@theme/*": ["src/theme/*"],
+      "@screens/*": ["src/screens/*"],
+      "@redux/*": ["src/redux/*"],
+      "@apiCalls/*": ["src/apiCalls/*"],
+    },
+  },
+}
